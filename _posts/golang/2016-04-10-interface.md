@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interface"
-categories: golang
+tags: golang
 ---
 
 - 하나의 인터페이스는 보통 하나의 method를 가진다
@@ -22,5 +22,5 @@ type ReadCloser interface {
   x = true
   x = 1
   fmt.Printf(...interface{})
-```  
+```
 - 값에 변경이 발생하는 동작의 interface에는 pointer 형태의 type이 연결되는 경우가 많다 (_golang에서 pointer에 대해서 더 파악 필요_)
